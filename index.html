@@ -8,17 +8,91 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+			<section class="slides">
+				<section data-background-image="heisenberg.jpg">
+                    
+                    <div style="text-align:left">
+                        <h2 style="text-align:center">BIG DATA &</h2>
+                        <h2 style="text-align:center">Ciência de Dados</h2>
+                        <p><h5>Alunos:</h5></p>
+                        <p><h7>Tiago Matos</h7></p>
+                        <p><h7>Victor Bonin</h7></p>
+                        
+                    </div>
+                </section>
+                
+                <section>
+                    <section data-background-image="universo.jpg">
+                        <h2>Demônio de Laplace</h2>
+                        <blockquote style="font-size:24px;">
+                            &ldquo;Devemos considerar o estado atual do universo como o efeito de seu estado anterior e como a causa do estado posterior. Um ser inteligente que conheça todas as forças que atuam na natureza em um determinado instante, bem como as posições momentâneas de todas as coisas no universo, seria capaz de compreender, em uma única fórmula, os movimentos dos maiores corpos e os átomos mais leves do universo&rdquo; 
+                            
+                        </blockquote>
+                        <h6> - Laplace </h6>
+                    </section>
+                    <section data-background-image="atom.jpg">
+                        <h2>Princípio da Incerteza</h2>
+                        <blockquote style="font-size:24px;">
+                            &ldquo;Estabelece que não podemos medir com precisão duas variáveis complementares de uma partícula, ou seja, quanto mais precisamente tentamos medir a posição de uma partícula, menos precisamente conseguimos medir sua velocidade e vice-versa. Desse modo, as medições de posição, momento linear, carga, elétrica, velocidade, impulso, rotação e outras seriam cada vez menos precisas&rdquo; 
+                        </blockquote>
+                        <h6> - Heisenberg </h6>
+                    </section>
+                <section> 
+                    <h1>Ordem ou Caos?</h1>
+                </section>
+
+                </section>
+                <section>
+                    
+                    <section>
+                        Um pouco de Ordem ao Caos
+                        <img class="r-frame" style="background: rgba(255,255,255,0.1);"  data-src="chaotic-good.jpg" alt="Chaotic Good">
+                    </section>
+                    <section>
+                        <h2>Dados</h2>
+                        <p class="fragment">São sinais não processados. Podem ser composto de números, sinais elétricos, palavras, sons, imagens  </p>
+                    </section>
+                    <section> 
+                        <h2>Informação</h2>
+                    </section>
+                    <section> 
+                        <h2>Conhecimento</h2>
+                        <p>Significa a conexão das informações dando um sentido mais amplo</p>
+                        <div style="font-size:16px;position:fixed;top:680px">
+                        <p>Referência</p>
+                        </div>
+                    </section>
+                </section>
+                <section data-background="https://media.giphy.com/media/g9582DNuQppxC/giphy.gif">
+                    <h2>Enfim</h2>
+                </section>
+                <section data-background-iframe="https://ourworldindata.org/grapher/supercomputer-power-flops?time=earliest..2017">
+                    <h2></h2>
+                </section>
+                <section data-background-iframe="https://ourworldindata.org/grapher/transistors-per-microprocessor">
+
+                </section>
+                <section>Data Science</section>
+                <section>Diferença entre Data Science e BI</section>
+                <section><h3>Processos em Data Science</h3>
+                    <section><p>Entrada</p></section>
+                    <section><p>Processamento</p></section>
+                    <section><p>Saída</p></section>
+                </section>
+                <section> 
+                    
+                </section>
+                
+
+
+            </div>
 		</div>
 
 		<script src="dist/reveal.js"></script>
@@ -30,7 +104,8 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
+                hash: true,
+                transition:'convex',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
